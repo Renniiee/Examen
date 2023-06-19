@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="discription" content="Muziekschool, lessen">
+        <meta name="keywords" content="blazers, muziek, saxofoon, jazzmuziek">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beheerpagina</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <link rel="stylesheet" href="jquery-ui-1.13.2/jquery-ui.css">
+        <script src="jquery-ui-1.13.2/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.13.2/jquery-ui.js"></script>
+        <script src="JS/Script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Muziekschool H&J</h1>
+            <p id="hp">Luisterend oor voor talent!</p>    
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="Overons.html">Over ons</a></li>
+                <li><a href="Tarieven.html">Tarieven</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Motivatie.html" >Motivatie</a></li>
+            </ul>
+        </nav>
+        <div id="geel"></div>
+        <section>
+            <div id="kolom">
+                <ul id="sidemenu">
+                    <li><a href="Beheerpagina.html">Beheerpagina</a>
+                        <ul>
+                            <li><a href="blogartikelen.html">Blogartikelen</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Overzichtspagina.html">Overzichtspagina</a></li>                                
+                        </ul>
+                    </li>
+                </ul> 
+                <img id="music" src="documenten/pexels-sangeet-rao-15379975.jpg" alt="No music no live">
+            </div>
+        <div id="kolom2">
+        <h1 id="h1">Blog</h1>
+        <div id="message"></div>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+            <p>Laat hier uw verhaal achter.</p>
+            <label for="naam">Uw Naam</label>
+            <input type="text" name="naam"><br><br>
+            <label for="email">Uw Email</label>
+            <input type="email" name="email"><br><br>
+            <label for="textarea">Blog</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10">Typ hier de blog die u wilt plaatsen</textarea><br><br>
+            <button id="btn">Verzend</button>
+          </form>
+        </div>
+        </section>
+        <footer>
+            <p>© Copyright 2021 Muziekschool H&J<br>(Dit is een oefenopdracht, alle informatie op deze website is fictief.)</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,277 @@
+body{
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    min-height: 200px;
+    background-color: #FF7900;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hp{
+    font-size: small;
+}
+
+#menu{
+    background-color: #D36800;
+    padding: 5px;
+}
+
+ul a{
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    display: inline;
+    padding-right: 15px;
+    text-align: center;
+}
+
+#geel{
+    background-color: yellow;
+    height: 3px;
+}
+
+section{
+    display: flex;
+}
+
+#kolom{
+    width: 25%;
+    padding: 15px;
+    background-color: #FEAC5D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#kolom2{
+    width: 70%;
+    padding: 15px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: small;
+}
+
+.title{
+    color: #D36800;
+}
+
+img{
+    width: 300px;
+    padding-left: 20px;
+}
+
+footer{
+    height: 100px;
+    background-color: #D36800;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+/* Over ons */
+
+#hannah{
+    float: right;
+}
+
+#jesse{
+    float: left;
+}
+
+/* contact */
+
+input{
+    width: 100%;
+    height: 25px;
+    padding-top: 0;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+
+select{
+    width: 100%;
+    height: 32px;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea::placeholder{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.knop{
+    background-color: #D36800;
+    height: 40px;
+    width: 80px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+}
+
+/* beheerpagina */
+
+#h1{
+    color: #D36800;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+form p{
+    font-size: medium;
+}
+
+#btn{
+    background-color: #D36800;
+    height: 40px;
+    width: 80px;
+    border-radius: 3px;
+    border-style: none;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#message{
+    padding-left: 20px;
+}
+
+/* blog algemeen */
+
+#sidemenu{
+    background-color: #FF7900;
+    border-style: none;
+    border-radius: 3px;
+    width: 150px;
+    color: white;
+    position: relative;
+}
+
+#sidemenu li ul {
+    background-color: #FF7900;
+    border-style: none;
+}
+
+#sidemenu :hover{
+    background-color: #FEAC5D;
+    border-style: none;
+}
+
+.hover{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    padding: 10px;
+}
+
+#music{
+    width: 300px;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    html, body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    #menu{
+        width: 100%;
+    }
+
+    li{
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    ul{
+        padding-right: 50px;
+    }
+
+    section{
+        display: block;
+    }
+
+    #kolom{
+        width: 100%;
+    }
+
+    #kolom2{
+        width: 100%;
+    }
+
+    p{
+        padding-right: 25px;
+    }
+    
+    #saxofoon1{
+        width: 80%;
+    }
+
+    #hannah{
+        width: 40%;
+        padding-right: 30px;
+    }
+
+    #jesse{
+        width: 40%;
+    }
+
+    #kind{
+        width: 70%;
+    }
+    
+    input{
+        width: 90%;
+    }
+    
+    select{
+        width: 90%;
+    }
+    
+    textarea{
+        width: 90%;
+    }
+
+    #h5contact{
+        width: 90%;
+    }
+
+    #sidemenu{
+        width: 30%;
+    }
+
+    #music{
+        width: 70%;
+    }
+
+    .hover{
+        margin-right: 25px;
+    }
+}
